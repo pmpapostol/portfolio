@@ -1,0 +1,16 @@
+$theme-colors: (
+  "primary" : red,
+  "secondary" : green,
+  "tertiary" : yellow
+);
+
+
+$bgcolor: #2C393F;
+
+body{
+	background-color: $bgcolor;
+}
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
