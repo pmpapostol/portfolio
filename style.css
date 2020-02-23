@@ -9,7 +9,7 @@ html {
 #myname {
 	font-size: 80px;
 	font-family: 'Galada', cursive;
-	padding-top: 100px;
+	padding-top: 10px;
 }
 
 
@@ -17,19 +17,19 @@ html {
 #aboutmename {
 	font-size: 70px;
 	font-family: 'Galada', cursive;
-	padding-top: 50px;
+	padding-top: 10px;
 }
 
 #myprojects {
 	font-size: 70px;
 	font-family: 'Galada', cursive;
-	padding-top: 50px;
+	padding-top: 10px;
 }
 
 #contactme {
 	font-size: 70px;
 	font-family: 'Galada', cursive;
-	padding-top: 50px;
+	padding-top: 10px;
 }
 
 
@@ -46,16 +46,16 @@ html {
 #objectives{
 	font-family: 'Bree Serif', serif;
 	font-size: 20px;
-	margin: 10px 10px;
+	margin: 5px 5px;
 }
 
 #ako{
 	display: block;
 	margin-left: auto;
   	margin-right: auto;
-  	margin-top: 50px;
-  	margin-bottom: 50px;
-  	width: 30%;
+  	margin-top: 10px;
+  	margin-bottom: 10px;
+  	width: 20%;
   	box-shadow: 30px 30px 5px #ccc;
     -moz-box-shadow: 30px 30px 5px #ccc;
     -webkit-box-shadow: 30px 30px 5px #ccc;
@@ -63,16 +63,17 @@ html {
 
 }
 
-img{
+#projs{
 	display: block;
 	margin-left: auto;
   	margin-right: auto;
-  	width: 30%;
+  	width: 100%;
   	box-shadow: 30px 30px 5px #ccc;
     -moz-box-shadow: 30px 30px 5px #ccc;
     -webkit-box-shadow: 30px 30px 5px #ccc;
     -khtml-box-shadow: 30px 30px 5px #ccc;
 }
+
 
 #projecttitle {
 	font-size: 20px;
@@ -105,7 +106,7 @@ iframe{
 
 footer{
 	margin-top: 5px;
-
+}
 
 .fab{
 	size: 7px;
@@ -115,7 +116,7 @@ body{
 	background-color: yellow;
 }
 
-#welcome, #aboutme, #projects, #contactme a:hover {
+/*#welcome, #aboutme, #projects, #contactme a:hover {
   background-color: #ddd;
   color: black;
 }
@@ -131,21 +132,49 @@ body{
 #welcome, #aboutme, #projects, #contactme a:active {
   background-color: white;
   color: black;
+}*/
+
+#welcome{
+	height: 100vh;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
+
+
+#landing{
+	height: 100vh;
+	width: 100vw;
+	background-image: url('https://images.pexels.com/photos/373965/pexels-photo-373965.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-.container:hover .overlay {
-  opacity: 1;
+#welcome
+{
+	height: 100vh;
 }
+
+
+#aboutme{
+	height: 100vh;
+}
+
+#contactme{
+	height: 90vh;
+}
+
+
+#myworld{
+	/*height: 70vh;*/
+	padding-top: 20px;
+	text-align: center;
+	font-size: 50px;
+	font-family: 'Galada', cursive;
+}
+
+a{
+	color: black;
+	text-decoration: none;
+	all: unset;
+}
+
